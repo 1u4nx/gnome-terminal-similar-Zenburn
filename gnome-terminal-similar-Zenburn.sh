@@ -1,3 +1,5 @@
+#!/bin/bash
+
 gnome_terminal_conf_dir=/apps/gnome-terminal/profiles
 
 profiles=($(gconftool-2 -R ${gnome_terminal_conf_dir} | fgrep ${gnome_terminal_conf_dir} | cut -d/ -f5 | sed 's/://g'))

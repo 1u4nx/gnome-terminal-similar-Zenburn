@@ -17,6 +17,4 @@
 
     $ bash ./gnome-terminal-similar-Zenburn.sh
 
-*注意：目前脚本只支持Bash，Zsh会出错，请用Bash执行*
-
 如果想覆盖当前的Gnome终端主题，选择`Default`即可。
